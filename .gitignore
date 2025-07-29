@@ -21,3 +21,58 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Global
+.DS_Store
+Thumbs.db
+*.log
+*.env
+.env.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+tripploy-chatbot/__pycache__/
+tripploy-chatbot/*.pyc
+tripploy-chatbot/*.pyo
+tripploy-chatbot/*.pyd
+tripploy-chatbot/.Python
+tripploy-chatbot/env/
+tripploy-chatbot/venv/
+tripploy-chatbot/venv.bak/
+tripploy-chatbot/.pytest_cache/
+tripploy-chatbot/.mypy_cache/
+tripploy-chatbot/.ruff_cache/
+tripploy-chatbot/instance/
+tripploy-chatbot/.coverage
+tripploy-chatbot/htmlcov/
+
+# ReactJS
+tripploy-dashboard/app/client/node_modules/
+tripploy-dashboard/app/client/.next/
+tripploy-dashboard/app/client/.turbo/
+tripploy-dashboard/app/client/build/
+tripploy-dashboard/app/client/.eslintcache
+
+# NestJS
+tripploy-dashboard/app/server/node_modules/
+tripploy-dashboard/app/server/dist/
+tripploy-dashboard/app/server/.turbo/
+tripploy-dashboard/app/server/.eslintcache
+
+# Shared interface (ignore build artifacts if any)
+tripploy-dashboard/app/interface/dist/
+tripploy-dashboard/app/interface/build/
+
+# PM2 logs (optional)
+~/.pm2/logs
+
+# OS-generated
+ehthumbs.db
+Icon?
